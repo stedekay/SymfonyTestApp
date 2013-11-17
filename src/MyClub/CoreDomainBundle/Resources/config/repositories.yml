@@ -1,0 +1,8 @@
+services:
+  user_repository:
+    alias: user_repository.in_memory
+
+  user_repository.in_memory:
+    class: MyClub\CoreDomainBundle\Repository\InMemoryUserRepository
+    public: false
+

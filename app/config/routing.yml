@@ -1,0 +1,3 @@
+MyClubUserController:
+  resource: "@MyClubApiBundle/Controller/UserController.php"
+  type:     annotation
